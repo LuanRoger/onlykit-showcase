@@ -1,0 +1,10 @@
+{
+  "extends": "onlykit/dev/tsconfig",
+  "compilerOptions": {
+    "typeRoots": ["node_modules/@types", "node_modules/onlykit/dist"],
+    "paths": {
+      "@src/*": ["./src/*"]
+    }
+  },
+  "include": ["src/**/*.ts", "./tsdown.config.ts"]
+}

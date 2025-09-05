@@ -1,0 +1,18 @@
+{
+  "name": "onlykit-showcase",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "scripts": {
+    "init": "onlykit init .",
+    "start:benchmarks": "node dist/benchmarks.mjs",
+    "dev": "onlykit dev ./src",
+    "build": "onlykit build",
+    "check": "onlykit check",
+    "check:write": "onlykit check --write"
+  },
+  "packageManager": "pnpm@10.15.0",
+  "dependencies": {
+    "onlykit": "^1.0.0"
+  }
+}
