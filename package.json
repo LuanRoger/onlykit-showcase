@@ -4,9 +4,9 @@
   "description": "",
   "license": "MIT",
   "scripts": {
-    "init": "onlykit init .",
     "start:benchmarks": "node dist/benchmarks.mjs",
-    "dev": "onlykit dev ./src",
+    "start:server": "node dist/server.mjs",
+    "dev:server": "onlykit dev ./src/server/index.ts --execute server.mjs",
     "build": "onlykit build",
     "check": "onlykit check",
     "check:write": "onlykit check --write"
